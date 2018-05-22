@@ -1,0 +1,142 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	transition: all .4s ease-in; /* плавный переход */
+}
+
+
+html,body {
+	height: 100%
+}
+body {
+	margin: 0px;
+	border: 20px solid #2B81AC;
+	background:#3399CC;
+	min-height: 200%;
+	color: #fff;
+	font: 20px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+header{
+	width: 80%;
+	max-width: 839px;
+	margin: 0 auto;
+}
+h1 {
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-left: 38px;
+}
+footer {
+
+	margin-top: 2rem;
+	margin-left: 17.2rem;
+	width: 80%;
+	max-width: 839px;
+	/* margin: 30px auto; */
+
+}
+ul:hover li {
+	opacity: 0.4;
+}
+ul li:hover {
+	opacity: 1;
+}
+span {
+	cursor: pointer;
+}
+.list {
+	width: 80%;
+	margin: 0 auto;
+	display: inline-block;
+	max-width: 839px;
+	font-size: 0;
+}
+.box1{
+	padding: 10px 0;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	height: 35%;
+	border: 2px solid #fff; 
+}
+
+.box2{
+	padding: 10px 0;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	height: 35%;
+	border: 2px solid #fff; 
+	}
+.box3{
+	padding: 10px 0;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 35%;
+	border: 2px solid #fff; 
+	}
+.box1 li:focus,
+.box1 li:hover,
+.box2 li:focus,
+.box2 li:hover,
+.box3 li:focus,
+.box3 li:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+ 
+.color_Paris{
+	background: #33CCCC;
+}
+.color_Belgrade{
+	background: #996699;
+}
+.color_Moscow{
+	background: #C24747;
+}
+.color_TelAviv{
+	background: #E2674A;
+}
+.color_Cair{
+	background: #FFCC66;
+}
+.color_NewYork{
+	background: #99CC99;
+}
+.color_NewDelhi{
+	background: #669999;
+}
+.color_Francisco{
+	background: #CC6699;
+}
+.color_Tokio{
+	background: #339966;
+}
+.color_Sydney{
+	background: #666699;
+}
+.wi{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
