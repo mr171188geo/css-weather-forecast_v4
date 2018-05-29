@@ -1,4 +1,6 @@
 * {
+	margin: 0;
+	padding: 0;
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -10,31 +12,26 @@ html,body {
 	height: 100%
 }
 body {
-	margin: 0px;
-	border: 20px solid #2B81AC;
+	border-left: 20px solid #2B81AC;
+	border-right: 20px solid #2B81AC;
 	background:#3399CC;
-	min-height: 200%;
 	color: #fff;
 	font: 20px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 }
 header{
-	width: 80%;
-	max-width: 839px;
+	padding: 60px 0 20px;
+	width: 70%;
 	margin: 0 auto;
 }
 h1 {
 	font-weight: 500;
 	font-size: 24px;
 	text-transform: capitalize;
-	margin-left: 38px;
+	/* margin-left: 38px; */
 }
 footer {
-
-	margin-top: 2rem;
-	margin-left: 17.2rem;
-	width: 80%;
-	max-width: 839px;
-	/* margin: 30px auto; */
+	width: 70%;
+	margin: 20px auto;
 
 }
 ul:hover li {
@@ -47,48 +44,56 @@ span {
 	cursor: pointer;
 }
 .list {
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
-	display: inline-block;
-	max-width: 839px;
+	list-style-type: none;
 	font-size: 0;
-}
-.box1{
-	padding: 10px 0;
-	font-size: 20px;
-	display: inline-block;
-	text-align: center;
-	width: 50%;
-	height: 35%;
 	border: 2px solid #fff; 
 }
 
-.box2{
+.small{
 	padding: 10px 0;
 	font-size: 20px;
 	display: inline-block;
 	text-align: center;
+	border: 2px solid #fff;
+	width: 50%;
+	height: 40%;
+	
+}
+
+.medium{
+	padding: 10px 0;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid #fff;
 	width: 25%;
-	height: 35%;
-	border: 2px solid #fff; 
+	height: 40%;
+	
 	}
-.box3{
+.large{
 	padding: 10px 0;
 	font-size: 20px;
 	display: inline-block;
 	text-align: center;
+	border: 2px solid #fff;
 	width: 100%;
-	height: 35%;
-	border: 2px solid #fff; 
+	height: 40%;
+	
 	}
-.box1 li:focus,
-.box1 li:hover,
-.box2 li:focus,
-.box2 li:hover,
-.box3 li:focus,
-.box3 li:hover {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+.small li:focus,
+.small li:hover,
+.medium li:focus,
+.medium li:hover,
+.large li:focus,
+.large li:hover {
+	display: inline-block;
+	font-size: 14px;
+	border: 2px solid #fff;
+	height: 100px;
+	text-align: center;
+	padding-top: 25px;
 }
  
 .color_Paris{
